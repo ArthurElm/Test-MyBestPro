@@ -41,6 +41,19 @@
       #bold {
         font-weight: bold;
       }
+      #table {
+        border-spacing: 5px;
+      }
+      #table tr td {
+        padding: 5px;
+      }
+      #footer-text {
+        float: left;
+        margin-top: 20px;
+        color: #999;
+        font-size: 9px;
+        text-decoration: underline;
+      }
     </style>
   </head>
 
@@ -138,7 +151,7 @@
       <p id="bold">Derniers inscrits :</p>
 
       <!-- table -->
-      <table style="border: none" cellspacing="5" cellpadding="5">
+      <table id="table">
         <tbody>
           <tr>
             <td>Aujourd'hui</td>
@@ -159,17 +172,9 @@
 
     <!-- footer of the page -->
     <footer>
-      <div
-        style="
-          float: left;
-          margin-top: 20px;
-          color: #999;
-          font-size: 9px;
-          font-style: underline;
-        "
-      >
+      <p id="footer-text">
         2021 - MyBestPro - 75 rue d'Amsterdam - 75008 Paris
-      </div>
+      </p>
     </footer>
   </body>
 </html>
